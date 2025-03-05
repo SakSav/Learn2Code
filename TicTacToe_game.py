@@ -53,7 +53,8 @@ def play_tic_tac_toe():
       else:
         current_player = "O" if current_player == "X" else "X"
     else:
-      print("Invalid move. Try again.")
+        print("Invalid move. Try again.")
 
 if __name__ == "__main__":
   play_tic_tac_toe()
+  
